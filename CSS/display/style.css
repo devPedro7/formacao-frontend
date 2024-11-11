@@ -1,0 +1,16 @@
+.block{
+    height: 200px;
+    background-color: red;
+    display: block;
+}
+
+.inline{
+    display: none;
+}
+
+.inline-block{ 
+    height: 200px;
+    background-color: blue;
+    margin-bottom: 5px;
+    display: inline-block;
+}
