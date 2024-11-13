@@ -1,0 +1,3 @@
+- para centralizar uma imagem utilizamos o "background-position: center", e "background-size: cover"
+- para aplicar as regras de espaçamento de cima em baixo é: top esquerda, inferior esquerda, inferior direita e superior direita.
+  e também: 10px 20px, o css entende que é 10px cima em baixo e 20 px direita e esquerda
