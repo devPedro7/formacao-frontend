@@ -209,3 +209,50 @@ nav{
 .plan .recommended{
     background-color: #f45c57;
 }
+
+/*SEARCH DOMAIN*/
+.searchdomain-container{
+    padding: 5rem 0;
+    text-align: center;
+    background-color: #34454e;
+}
+
+.searchdomain-container h2{
+    margin-bottom: 15px;
+    font-size: 42px;
+    color: #fff;
+}
+
+.searchdomain-container p{
+    margin-bottom: 25px;
+    font-size: 24px;
+    color: #d5d5d5;
+}
+
+.searchdomain-container input{
+    margin: 0 auto;
+    display: block;
+    border: none;
+    border-radius: 7px;
+}
+
+.searchdomain-container input[type="text"]{
+    width: 60%;
+    margin-bottom: 25px;
+    padding: 20px;
+    font-size: 20px
+}
+
+.searchdomain-container input[type="submit"]{
+    padding: 15px 30px;
+    background-color: #2cc76a;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.3s;
+}
+
+.searchdomain-container input[type="submit"]:hover{
+    opacity: 1;
+}
