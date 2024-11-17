@@ -66,3 +66,25 @@ nav{
     background-color: #22bb5f;
     color: #fff;
 }
+
+.main-banner{
+    background-image: url(../assets/mainbanner.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10rem 0;
+}
+
+.main-banner h1, .main-banner p{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    text-shadow: #000 3px 2px 3px;
+}
+
+.main-banner h1{
+    font-size: 54px;
+}
+
+.main-banner p{
+    font-size: 32px
+}
