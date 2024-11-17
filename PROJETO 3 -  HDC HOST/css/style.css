@@ -14,6 +14,8 @@ p{
     color: #70747a;
 }
 
+/*NAV*/
+
 .navbar-container{
     width: 100%;
     height: 80px;
@@ -67,6 +69,8 @@ nav{
     color: #fff;
 }
 
+/*MAIN*/
+
 .main-banner{
     background-image: url(../assets/mainbanner.png);
     background-size: cover;
@@ -87,4 +91,47 @@ nav{
 
 .main-banner p{
     font-size: 32px
+}
+
+/*SERVICOS*/
+.services-container{
+    padding: 5rem 0;
+}
+
+.services-container ul{
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.services-container li{
+    padding: 20px;
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+}
+
+.fas{
+    margin-bottom: 15px;
+    font-size: 60px;
+}
+
+.fa-shield-alt{
+    color: #2cc76a;
+}
+
+.fa-rocket{
+    color: #ef3f29;
+}
+
+.fa-comments{
+    color: #ef8f29;
+}
+
+.services-container h3{
+    margin-bottom: 25px;
+}
+
+.services-container p{
+    line-height: 24px
 }
