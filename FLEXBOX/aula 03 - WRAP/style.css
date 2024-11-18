@@ -1,0 +1,12 @@
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.box{
+    height: 40px;
+    width: 32%;
+    border: 1px solid red;
+    margin: 5px;
+}

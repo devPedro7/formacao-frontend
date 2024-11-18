@@ -1,0 +1,9 @@
+body{
+    padding-bottom: 500px;
+}
+
+.flex{
+    display: flex;
+    margin-bottom: 20px;
+    background-color: #ccc;
+}

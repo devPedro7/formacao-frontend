@@ -1,0 +1,28 @@
+.center, .flex-end, .stretch{
+    display: flex;
+    margin-bottom: 20px;
+    border: 1px solid blue;
+    height: 200px;
+}
+
+.center .box, .flex-end .box, .stretch .box{
+    width: 50px;
+    height: 40px;
+    border: 1px solid red;
+}
+.center{
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.stretch .box{
+    height: auto;
+}

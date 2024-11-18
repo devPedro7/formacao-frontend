@@ -1,0 +1,33 @@
+.center,
+.space-around,
+.space-between,
+.end{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.center .box,
+.space-around .box,
+.space-between .box,
+.end .box{
+    width: 50px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.center{
+    justify-content: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.end{
+    justify-content: end;
+}
+
