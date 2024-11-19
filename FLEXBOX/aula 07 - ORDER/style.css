@@ -1,0 +1,21 @@
+.order{
+    display: flex;
+}
+
+.box{
+    width: 50px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+#box3{
+    order: 1;
+}
+
+#box2{
+    order: 2;
+}
+
+#box1{
+    order: 3;
+}

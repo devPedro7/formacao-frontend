@@ -1,0 +1,13 @@
+.grow{
+    display: flex;
+}
+
+.box{
+    height: 45px;
+    width: 50px;
+    border: 1px solid red;
+}
+
+.grow .big{
+    flex: 1;
+}

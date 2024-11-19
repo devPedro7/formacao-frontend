@@ -1,0 +1,14 @@
+.gap{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid green;
+    justify-content: center;
+    padding: 10px 0 10px 0;
+    gap: 10px;
+}
+
+.gap .box{
+    width: 32%;
+    height: 50px;
+    border: 1px solid red;
+}

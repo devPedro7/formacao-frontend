@@ -1,0 +1,13 @@
+.basis{
+    display: flex;
+}
+
+.basis .box{
+    flex-basis: 20px;
+    height: 40px;
+    border: 1px solid red;
+}
+
+.basis .big{
+    flex-grow: 1;
+}
