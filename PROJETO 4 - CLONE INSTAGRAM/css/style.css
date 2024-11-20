@@ -9,13 +9,17 @@ body{
     background-color: #fffa;
 }
 
-#main-container{
+#main-container{    
+    margin: 0 auto; /*para centralizar no meio*/
+    min-height: 100%;
+    width: 800px;
     display: flex;
+    align-items: center;
 }
 
 #banner-container,
 #form-container{
-    flex: 1 1 0;
+    flex-grow: 1;
     width: 50%;
 }
 
@@ -24,7 +28,7 @@ body{
 }
 
 #banner-container img{
-    margin-right: 15px;
+    width: 100%;
     margin-top: 25px;
     max-width: 380px;
 }
@@ -102,3 +106,111 @@ body{
     padding: 0 10px; /* Adiciona um pouco de espaço ao redor do texto */
 }
 
+/*facebook login*/
+#facebook-login{
+    margin-bottom: 25px;
+}
+
+#facebook-login, #facebook-login a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #385185;
+}
+
+#facebook-login img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+#facebook-login span{
+    margin-top: 1px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#forgot-pass{
+    margin-bottom: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+#forgot-pass a{
+    margin: 5px auto;
+    text-decoration: none;
+    color: #373799;
+}
+
+/*register*/
+#register-container{
+    width: 350px;
+    margin-top: 10px;
+    padding: 25px;
+    border: 1px solid #dddddd;
+    background-color: #fff;
+    text-align: center;
+}
+
+#register-container p{
+    font-size: 14px;
+    color: #262626;
+}
+
+#register-container a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #4a95f6;
+}
+
+/*get app*/
+#get-app-container{
+    width: 350px;
+    text-align: center;
+}
+
+#get-app-container p{
+    margin: 20px 0;
+    font-size: 15px;
+}
+
+
+#get-app-container a{
+    text-decoration: none;
+}
+
+#get-app-container img{
+    width: 136px;
+    height: 40px;
+}
+
+/*footer*/
+footer{
+    width: 1000px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+}
+
+footer #footer-links {
+    display: flex;
+    list-style: none;
+}
+
+#footer-links li{
+    margin-right: 10px;
+}
+
+footer #footer-links a, #copyright{
+     text-decoration: none;
+     color: #868686;
+     font-size: 12px;
+}
+
+#copyright{
+    margin-top: 10px;
+}
