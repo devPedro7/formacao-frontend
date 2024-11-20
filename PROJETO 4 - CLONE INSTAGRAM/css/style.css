@@ -32,3 +32,73 @@ body{
 #form-container{
     text-align: center;
 }
+
+/*LOGIN FORM*/
+#form-box{
+    width: 350px;
+    margin-top: 30px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+}
+
+#logo-insta{
+    width: 175px;
+    height: 51px;
+    margin: 30px auto 12px;
+    display: block;
+}
+
+#login-form input{
+    display: block;
+    width: 268px;
+    margin: 7px auto;
+    padding: 12px 9px;
+    font-size: 12px;
+    background-color: #fafafa;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+}
+
+#login-form input[type=submit]{
+    height: 30px;
+    padding: 0;
+    font-size: 13px;
+    margin-top: 15px;
+    background-color: #b2dffc;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#login-form input[type=submit]:hover{
+    background-color: #3b4bc0;
+}
+
+.separator {
+    position: relative;
+}
+
+.line {
+    width: 268px;
+    margin: 25px auto 35px;
+    border-top: 1px solid #dbdbdb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.separator span {
+    width: auto; /* Ajusta a largura automaticamente */
+    text-transform: uppercase;
+    color: #bbb;
+    background-color: #ffff;
+    font-size: 14px;
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    transform: translateX(-50%);
+    padding: 0 10px; /* Adiciona um pouco de espaço ao redor do texto */
+}
+
