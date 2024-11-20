@@ -214,3 +214,42 @@ footer #footer-links a, #copyright{
 #copyright{
     margin-top: 10px;
 }
+
+@media (max-width: 450px) {
+
+    body {
+        background-color: #fff;
+    }
+
+    #banner-container {
+        display: none;
+    }
+
+    #main-container,
+    #form-box {
+        margin-top: 0;
+        display: block;
+        width: 100%; /* Garante que o contêiner principal ocupe 100% da largura */
+    }
+
+    #form-container,
+    #form-box,
+    #register-container,
+    #get-app-container {
+        width: 100%;
+        border: none;
+    }
+
+    footer {
+        width: 90%;
+    }
+
+    #footer-links {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        margin-right: 0; /* Remove margem direita extra */
+        margin-bottom: 10px;
+    }
+}
+
