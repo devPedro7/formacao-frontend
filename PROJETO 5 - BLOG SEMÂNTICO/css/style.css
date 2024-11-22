@@ -67,3 +67,78 @@ a:hover{
 .title{
     font-size: 2rem;
 }
+
+/*sidebar*/
+#sidebar{
+    flex: 1 1 0;
+}
+
+#search-bar, #categories, #tags{
+    padding: 1.5rem;
+    border: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+
+#search-bar h4, #categories h4, #tags h4{
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+#search-bar form{
+    display: flex;
+}
+
+#search-bar input{
+    padding: .5rem 1rem;
+    border: 1px solid #ddd;
+}
+
+#search-bar input[type="submit"]{
+    cursor: pointer;
+    background-color: #44a1f7;
+    color: #fff;
+    border: none;
+}
+
+#categories li{
+    margin-bottom: 1rem;
+}
+
+#tags-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+}
+
+#tags-container a{
+    padding: .5rem .7rem;
+    background-color: #ddd;
+    border-radius: 7px;
+}
+
+footer{
+    padding: 3rem;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+
+footer h2, p{
+    margin: 1rem;
+}
+
+/*responsivo*/
+@media(max-width: 450px){
+
+    #navbar-inner h2{
+        font-size: 17px;
+    }   
+
+    #navbar-inner li{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+
+    #container{
+        flex-wrap: wrap;
+    }
+}
