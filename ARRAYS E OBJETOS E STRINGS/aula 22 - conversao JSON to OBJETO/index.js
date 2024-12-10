@@ -5,3 +5,10 @@ const jsonObjeto = JSON.parse(myJson)
 
 console.log(jsonObjeto.nome)
 console.log(typeof jsonObjeto)
+
+//OBJETO PARA JSON
+
+const novoJson = JSON.stringify(jsonObjeto)
+
+console.log(novoJson);
+console.log(typeof novoJson);
